@@ -9,3 +9,11 @@ func TestSum(t *testing.T) {
 		t.Error("The result must be 5")
 	}
 }
+
+func TestSubtract(t *testing.T) {
+	result := Subtract(3, 2)
+
+	if result != 2 {
+		t.Error("The result must be 1")
+	}
+}
